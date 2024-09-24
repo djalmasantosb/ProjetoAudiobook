@@ -1,6 +1,6 @@
 body {
   background-image: linear-gradient(#3b1566, #5f4da8);
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -21,10 +21,8 @@ button {
   cursor: pointer;
 }
 
-.music-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+button:hover {
+  color: #9e78c9;
 }
 
 #informacoes-faixa {
@@ -33,6 +31,11 @@ button {
   align-items: center;
   margin: 2rem 0 1rem 0;
   font-size: 1.5rem;
+}
+
+#anterior,
+#proximo {
+  font-size: 3rem;
 }
 
 #anterior,
